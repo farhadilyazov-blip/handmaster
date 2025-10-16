@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc3adba3-12bc-48a0-8ff2-1de30cdd6ae4">
+  <name>УчетЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет заказов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказПокупателя</content>
+</mdclass:Subsystem>

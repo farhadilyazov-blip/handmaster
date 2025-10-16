@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fb4a631-b554-4e81-8c41-d423bc65fefc">
+  <name>МастерНаВсеРуки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер на все руки</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="60d7b7a1-7339-439b-a420-1322766d40eb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="90b5d5e2-57d4-4ce3-b712-942a40370a7c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a8c543f4-64ed-45c4-a318-4558306ce731"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b27c2b3b-b79b-4702-886c-e16ed8d8c453"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6d03c999-0ad8-474e-ab0e-39f0d8528d3f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6958c832-4f8c-4cc3-90a5-49fe7a509934"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bf595e10-0043-4317-a168-c289764a6f4d"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="4248078a-3b1d-494c-a5e8-03ecd5b2edc0">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УчетЗаказов</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <roles>Role.МенеджерПоЗаказам</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <functionalOptions>FunctionalOption.РаботаСЗаказами</functionalOptions>
+  <constants>Constant.НазваниеФирмы</constants>
+  <constants>Constant.РазрешитьРаботуСЗаказами</constants>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ОказаниеУслуг</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+</mdclass:Configuration>

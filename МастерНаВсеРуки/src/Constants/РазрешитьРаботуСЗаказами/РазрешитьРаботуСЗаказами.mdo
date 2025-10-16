@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59268669-8e76-444c-947b-cf3e89f71dbd">
+  <producedTypes>
+    <managerType typeId="3bb931f5-aec8-447d-806d-a5085fcc9273" valueTypeId="b4348189-6005-485f-8460-e17d59a2ddcc"/>
+    <valueManagerType typeId="eac80d03-7092-4d23-a057-70f5809bd72c" valueTypeId="cdf49e44-3fd9-4e31-83e4-cce3faf75724"/>
+    <valueKeyType typeId="08f258d1-3a43-4e85-99e9-683dcfc237b3" valueTypeId="ee37e87b-175a-4386-a051-860dfc332f27"/>
+  </producedTypes>
+  <name>РазрешитьРаботуСЗаказами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить работу с заказами</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

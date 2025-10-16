@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4269f4d6-7396-4c6d-b077-e361c17bbac7">
+  <producedTypes>
+    <selectionType typeId="624f4a81-247d-45c0-9180-d75eee831e56" valueTypeId="d0030d36-4ef3-4fae-b58f-25d04bdcc865"/>
+    <listType typeId="ee3f4f4a-f0ee-4cb0-8b56-276db27bcb78" valueTypeId="4ff53034-e452-4920-9ff2-433f88546c76"/>
+    <managerType typeId="c119f1a1-89bc-42f0-814b-7bfd6123bd6b" valueTypeId="d20cb0e6-b2ae-4128-be4a-f9e75cad01d3"/>
+    <recordSetType typeId="8f441b3e-b340-42fa-9ca9-4b21f964b46f" valueTypeId="be2c5adc-8e69-40ac-9274-e4d814bdb31c"/>
+    <recordKeyType typeId="2b3cc94e-08fd-4c46-8049-3588724cfa89" valueTypeId="35a24f62-74ff-4512-8102-97974503e218"/>
+    <recordType typeId="7b72bc53-959b-4fd6-a789-c540e8dcf585" valueTypeId="f11da9df-5298-42d0-9700-fb46a1a976e5"/>
+    <recordManagerType typeId="0aa12811-0377-4d57-99f8-e4959eabe83a" valueTypeId="8707c6d7-e80a-49ef-a57d-a9158bc187ff"/>
+  </producedTypes>
+  <name>Цены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9aa9eaa1-21ad-4025-a213-4c943eb89df8">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e6b8fb55-05af-41f7-9382-468ac6675d97">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

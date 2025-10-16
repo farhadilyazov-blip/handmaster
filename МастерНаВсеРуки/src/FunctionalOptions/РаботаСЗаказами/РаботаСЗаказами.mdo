@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="887d69d4-e536-4d53-843c-66a1759e0a11">
+  <name>РаботаСЗаказами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с заказами</value>
+  </synonym>
+  <location>Constant.РазрешитьРаботуСЗаказами</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.УчетЗаказов</content>
+  <content>Document.ЗаказПокупателя</content>
+</mdclass:FunctionalOption>
