@@ -44,6 +44,7 @@
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <functionalOptions>FunctionalOption.РаботаСЗаказами</functionalOptions>
   <constants>Constant.НазваниеФирмы</constants>
   <constants>Constant.РазрешитьРаботуСЗаказами</constants>
